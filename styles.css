@@ -1,0 +1,210 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif; /* First font family */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Header Styling */
+header {
+    background: #007BFF; /* Header background color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px; /* Logo size */
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.hero {
+    background: url('images/hero-bg.jpeg') no-repeat center center/cover; /* Background image for hero section */
+    color: white;
+    padding: 100px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Donation Button */
+.donation-btn {
+    background: #28a745; /* Button color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background 0.3s;
+}
+
+.donation-btn:hover {
+    background: #218838; /* Darker shade on hover */
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .hero h1 {
+        font-size: 2em; /* Smaller font size for smaller screens */
+    }
+}
+/* Main Section */
+main {
+    padding: 50px 20px;
+    text-align: center; /* Centered text for main sections */
+}
+
+/* Section Styling */
+section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    max-width: 800px; /* Limit width for readability */
+}
+
+section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007BFF; /* Color for headings */
+}
+
+section p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+/* Specific Styles for Services Page */
+.services ul {
+    list-style-type: disc; /* Bulleted list */
+    margin-left: 20px; /* Indent list */
+    font-size: 1.1em; /* Slightly smaller font for list items */
+}
+
+/* Form Styles for Contact Page */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements */
+    gap: 15px; /* Space between elements */
+    margin-top: 20px; /* Space above the form */
+}
+
+label {
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Font size */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Minimum height */
+}
+
+button {
+    background: #28a745; /* Button color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1.1em; /* Font size */
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #218838; /* Darker shade on hover */
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    section h1 {
+        font-size: 2em; /* Smaller font size for smaller screens */
+    }
+}
